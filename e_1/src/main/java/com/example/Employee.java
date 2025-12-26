@@ -10,12 +10,12 @@ public abstract class Employee {
         this.name = name;
     }
 
-    // متد مشترک
+    
     public void displayInfo() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
     }
 
-    // متد انتزاعی
+    
     public abstract double calculateSalary();
 }
